@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<HTML>
+
+	<HEAD>
+		<TITLE></TITLE>
+		<META CHARSET="UTF8">
+		<LINK HREF="css/login.css" TYPE="text/css" REL="stylesheet">
+		<LINK HREF=".png" TYPE="image/png" REL="icon">
+	</HEAD>
+
+	<BODY>
+		<IMG SRC="material/placeholder.jpg" ID="img">
+		<BR>
+		<BR>
+		<BR>
+		<!-- AQUI VA EL INPUT DE PASSWORD -->
+		<!-- SCRIPT PARA LA CONTRASEÑA -->
+		<script LANGUAGE="JavaScript">
+			function Entrar(password) {
+			var passvalido = "12345";
+			if(password == passvalido){
+			window.location="main.html";
+			}else{
+			window.location="404.html";
+			}
+			}
+		</script>
+
+		<!-- CONFIGURACION Y BOTON -->
+		
+		<!--
+		<form>
+  			<p><input type="password" name="palabra" size="25"> 
+  			<BR>
+  			<input type="text" value="entrar" onClick="Entrar(this.form.palabra.value)" name="button"> </p>
+		</form>
+		-->
+
+		<BR>
+		<BR>
+		<IMG SRC="material/enter1.png" ALT="Enter Button" ONMOUSEOVER="this.src='material/enter1on.png'" ONMOUSEOUT="this.src='material/enter1.png'" ID="enter">
+	</BODY>
+
+</HTML>

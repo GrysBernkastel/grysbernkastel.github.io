@@ -1,0 +1,23 @@
+BODY {
+	background-color: black;
+	color: white;
+
+	position: absolute;
+	top: 25%;
+	left: 40%;
+}
+
+#img {
+	width: 50%;
+}
+
+#password {
+   background-image: url(../material/password.png);
+   background-repeat: no-repeat;  /*Esto hace que no se repita la imagen por todo el bloque de password.*/
+
+}
+
+#enter {
+	position: absolute;
+	left: 4%;
+}
